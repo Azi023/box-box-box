@@ -4,9 +4,9 @@ import sys
 
 # Parameters
 OFFSET = {'SOFT': -1.65, 'MEDIUM': 0.0, 'HARD': 1.05}
-DEG    = {'SOFT': 0.30,  'MEDIUM': 0.10, 'HARD': 0.005}
-THRESH = {'SOFT': 3,     'MEDIUM': 12,   'HARD': 15}
-TEMP_EXP = 0.5
+DEG    = {'SOFT': 0.3,  'MEDIUM': 0.1,  'HARD': 0.005}
+THRESH = {'SOFT': 2,     'MEDIUM': 10,   'HARD': 28}
+TEMP_EXP = 0.3
 
 
 def simulate(race):
